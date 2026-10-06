@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/site";
 
@@ -25,8 +26,9 @@ export default function ShippingPage() {
         <ul>
           <li>Free returns on unopened, unused rolls within {SITE.returnDays} days of delivery.</li>
           <li>Samples are non-returnable.</li>
-          <li>If a roll arrives damaged or misprinted, we replace it free — just email a photo to {SITE.email}.</li>
+          <li>If a roll arrives damaged or misprinted, we replace it free — just send a photo to {SITE.email} or on WhatsApp at {SITE.phoneDisplay}.</li>
         </ul>
+        <p>Questions about an order? See our <Link href="/contact">contact page</Link>.</p>
       </div>
     </div>
   );

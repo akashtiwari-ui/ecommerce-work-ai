@@ -2,7 +2,7 @@ import { COLLECTIONS, getCollection, getRoom, PRODUCTS, productFaqs, productQuic
 import { STORE_FAQS } from "./faqs";
 import { LEVELS } from "./game";
 import { GLOSSARY, GUIDES, type Guide } from "./guides";
-import { absoluteUrl, CONTENT_UPDATED, SITE } from "./site";
+import { absoluteUrl, CONTENT_UPDATED, SITE, whatsappUrl } from "./site";
 
 /** Clean markdown renderings of pages for LLM agents & answer engines. */
 
@@ -88,6 +88,7 @@ Key facts for agents:
 - Roll formula: rolls = ceil(wall area sq ft ÷ coverage × 1.05–1.15).
 - Machine-readable catalog (JSON, prices, specs): ${absoluteUrl("/catalog.json")}
 - Every product and guide page has a Markdown twin: append \`.md\` to the URL.
+- Contact: WhatsApp ${SITE.phoneDisplay} (${whatsappUrl()}) · Email ${SITE.email} · ${absoluteUrl("/contact")}
 - Content last reviewed: ${CONTENT_UPDATED}
 
 ## Collections
@@ -118,6 +119,7 @@ ${ROOMS.map((r) => `- [${r.headline}](${absoluteUrl(`/rooms/${r.slug}`)}): ${r.i
 - [Glossary of wallpaper terms](${absoluteUrl("/glossary")})
 - [Shipping & returns](${absoluteUrl("/shipping-returns")})
 - [About](${absoluteUrl("/about")})
+- [Contact — WhatsApp & email](${absoluteUrl("/contact")})
 - [Full content dump for LLMs](${absoluteUrl("/llms-full.txt")})
 `;
 

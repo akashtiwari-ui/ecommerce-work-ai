@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { productsInCollection, RARITY_META, variantsFor, type Product, type Variant } from "@/lib/catalog";
-import { formatPrice } from "@/lib/site";
+import { formatPrice, SITE, whatsappUrl } from "@/lib/site";
+import { WhatsAppIcon } from "./ContactIcons";
 import { useStore } from "./store";
 import { WishlistButton } from "./WishlistButton";
 
@@ -89,6 +90,15 @@ export function ProductPurchase({ product: p, initialVariant }: { product: Produ
         <li className="rounded-2xl border border-line p-3">↩︎<br />30-day free returns</li>
         <li className="rounded-2xl border border-line p-3">🌿<br />Low-VOC inks</li>
       </ul>
+
+      <a
+        href={whatsappUrl(`Hi ${SITE.name}! I have a question about ${p.name} wallpaper (${SITE.url}/wallpapers/${p.slug})`)}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center gap-2 rounded-2xl border border-[#25D366]/40 bg-[#25D366]/10 px-4 py-3 text-sm font-semibold text-[#1f7a4a] transition hover:bg-[#25D366]/20"
+      >
+        <WhatsAppIcon size={18} /> Questions? Ask us on WhatsApp
+      </a>
     </div>
   );
 }

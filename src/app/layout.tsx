@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
 import { StoreProvider } from "@/components/store";
 import { Toaster } from "@/components/Toaster";
+import { WhatsAppFab } from "@/components/WhatsAppFab";
 import { organizationLd, websiteLd } from "@/lib/schema";
 import { SITE } from "@/lib/site";
 
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main id="main">{children}</main>
           <Footer />
           <Toaster />
+          <WhatsAppFab />
         </StoreProvider>
       </body>
     </html>

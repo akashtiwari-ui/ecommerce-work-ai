@@ -11,6 +11,7 @@ export const HOME_FAQS = [
 
 export const STORE_FAQS = [
   ...HOME_FAQS,
+  { q: `How can I contact ${SITE.name}?`, a: `WhatsApp us on ${SITE.phoneDisplay} or email ${SITE.email}. You can send a photo of your wall for design advice and an exact roll count.` },
   { q: "Where are Wallora wallpapers printed?", a: "Every roll is printed to order with water-based, low-VOC inks on FSC®-certified non-woven paper or PVC-free vinyl film, then shipped within 1–2 business days." },
   { q: "Is Wallora wallpaper safe for nurseries?", a: "Yes. Our inks are water-based and low-VOC, and our peel & stick film is PVC-free. We recommend letting a newly papered nursery air for 24 hours before use." },
   { q: "Can wallpaper be used on ceilings?", a: "Yes. Ceilings — 'the fifth wall' — are a great place for wallpaper. Non-woven paste-the-wall wallpaper is easiest on ceilings because it is lightweight and doesn't stretch." },

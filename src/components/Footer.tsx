@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { COLLECTIONS, ROOMS } from "@/lib/catalog";
 import { GUIDES } from "@/lib/guides";
-import { SITE } from "@/lib/site";
+import { mailtoUrl, SITE, whatsappUrl } from "@/lib/site";
+import { MailIcon, WhatsAppIcon } from "./ContactIcons";
 import { Logo } from "./Header";
 import { Newsletter } from "./Newsletter";
 
@@ -10,7 +11,7 @@ export function Footer() {
     { title: "Shop", links: [{ href: "/wallpapers", label: "All wallpaper" }, ...COLLECTIONS.map((c) => ({ href: `/collections/${c.slug}`, label: c.name }))] },
     { title: "By room", links: ROOMS.map((r) => ({ href: `/rooms/${r.slug}`, label: `${r.name} wallpaper` })) },
     { title: "Learn", links: [...GUIDES.slice(0, 4).map((g) => ({ href: `/guides/${g.slug}`, label: g.title.split(":")[0].split("?")[0] })), { href: "/glossary", label: "Wallpaper glossary" }, { href: "/tools/wallpaper-calculator", label: "Roll calculator" }] },
-    { title: "Wallora", links: [{ href: "/rewards", label: "Rewards & levels" }, { href: "/style-quiz", label: "Style quiz" }, { href: "/about", label: "About us" }, { href: "/faq", label: "FAQ" }, { href: "/shipping-returns", label: "Shipping & returns" }, { href: "/llms.txt", label: "For AI agents (llms.txt)" }] },
+    { title: "Wallora", links: [{ href: "/rewards", label: "Rewards & levels" }, { href: "/style-quiz", label: "Style quiz" }, { href: "/about", label: "About us" }, { href: "/contact", label: "Contact us" }, { href: "/faq", label: "FAQ" }, { href: "/shipping-returns", label: "Shipping & returns" }, { href: "/llms.txt", label: "For AI agents (llms.txt)" }] },
   ];
   return (
     <footer className="mt-24 bg-ink text-cream">
@@ -21,6 +22,10 @@ export function Footer() {
           <p className="mt-8 font-display text-2xl">Get the Wallora letter</p>
           <p className="mt-1 mb-4 text-sm text-cream/60">New drops, installation tips &amp; a 10% welcome code.</p>
           <Newsletter dark />
+          <address className="mt-8 flex flex-col gap-2 text-sm not-italic text-cream/75">
+            <a href={whatsappUrl(`Hi ${SITE.name}!`)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 hover:text-cream"><span className="text-[#25D366]"><WhatsAppIcon size={18} /></span>WhatsApp {SITE.phoneDisplay}</a>
+            <a href={mailtoUrl()} className="inline-flex items-center gap-2.5 break-all hover:text-cream"><span className="text-gold"><MailIcon size={18} /></span>{SITE.email}</a>
+          </address>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
           {cols.map((c) => (

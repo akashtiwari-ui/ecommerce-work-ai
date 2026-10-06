@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { formatPrice } from "@/lib/site";
+import { formatPrice, mailtoUrl, SITE, whatsappUrl } from "@/lib/site";
+import { MailIcon, WhatsAppIcon } from "./ContactIcons";
 import { Totals } from "./CartView";
 import { useStore, type Order } from "./store";
 
@@ -10,6 +11,7 @@ export function Checkout() {
   const { lines, total, placeOrder, hydrated, level } = useStore();
   const [placed, setPlaced] = useState<Order | null>(null);
   const [busy, setBusy] = useState(false);
+  const [message, setMessage] = useState("");
 
   if (placed)
     return (
@@ -19,7 +21,15 @@ export function Checkout() {
         <p className="mt-2 text-cream/70">Order {placed.id} · {formatPrice(placed.total)}</p>
         <p className="mt-6 font-display text-5xl text-gold">+{placed.xp} XP</p>
         <p className="mt-2 text-sm text-cream/60">You&apos;re now a {level.current.name}. Designs added to your collection.</p>
-        <div className="mt-8 flex justify-center gap-3">
+        <div className="mt-8 rounded-2xl bg-cream/5 p-5 text-left ring-1 ring-cream/10">
+          <p className="text-sm font-semibold">Last step: send us your order</p>
+          <p className="mt-1 text-xs text-cream/60">Online payment isn&apos;t live yet. Send these order details and we&apos;ll confirm payment and delivery with you.</p>
+          <div className="mt-4 grid gap-2 sm:grid-cols-2">
+            <a href={whatsappUrl(message)} target="_blank" rel="noopener noreferrer" className="btn bg-[#25D366] text-white hover:brightness-95"><WhatsAppIcon size={18} />Send on WhatsApp</a>
+            <a href={mailtoUrl(`New order ${placed.id}`, message)} className="btn bg-cream text-ink hover:bg-gold"><MailIcon size={18} />Send by email</a>
+          </div>
+        </div>
+        <div className="mt-6 flex justify-center gap-3">
           <Link href="/rewards" className="btn bg-gold text-ink hover:bg-cream">See rewards</Link>
           <Link href="/wallpapers" className="btn border border-cream/30 hover:bg-cream/10">Keep shopping</Link>
         </div>
@@ -34,11 +44,20 @@ export function Checkout() {
       className="grid gap-8 lg:grid-cols-[1.4fr_1fr]"
       onSubmit={(e) => {
         e.preventDefault();
+        const f = new FormData(e.currentTarget);
+        const v = (k: string) => String(f.get(k) ?? "").trim();
         setBusy(true);
         setTimeout(() => {
           const t = total;
+          const items = lines.map((l) => `• ${l.qty} × ${l.product.name} — ${l.v.label} (${formatPrice(l.lineTotal)})`).join("\n");
           const next = placeOrder(t);
-          setPlaced(next.orders[0]);
+          const order = next.orders[0];
+          setMessage(
+            `Hi ${SITE.name}! I'd like to place order ${order.id}.\n\n${items}\n\nTotal: ${formatPrice(t)}\n\n` +
+              `Name: ${v("firstName")} ${v("lastName")}\nEmail: ${v("email")}\nPhone: ${v("phone")}\n` +
+              `Address: ${v("address")}, ${v("city")}, ${v("state")} ${v("zip")}`,
+          );
+          setPlaced(order);
           setBusy(false);
           window.scrollTo({ top: 0, behavior: "smooth" });
         }, 700);
@@ -47,19 +66,20 @@ export function Checkout() {
       <div className="card space-y-6 p-6 sm:p-8">
         <fieldset className="grid gap-3 sm:grid-cols-2">
           <legend className="mb-3 font-display text-2xl">Contact</legend>
-          <input required type="email" autoComplete="email" placeholder="Email" aria-label="Email" className="input sm:col-span-2" />
-          <input required autoComplete="given-name" placeholder="First name" aria-label="First name" className="input" />
-          <input required autoComplete="family-name" placeholder="Last name" aria-label="Last name" className="input" />
+          <input required name="email" type="email" autoComplete="email" placeholder="Email" aria-label="Email" className="input" />
+          <input required name="phone" type="tel" autoComplete="tel" placeholder="Phone / WhatsApp" aria-label="Phone or WhatsApp number" className="input" />
+          <input required name="firstName" autoComplete="given-name" placeholder="First name" aria-label="First name" className="input" />
+          <input required name="lastName" autoComplete="family-name" placeholder="Last name" aria-label="Last name" className="input" />
         </fieldset>
         <fieldset className="grid gap-3 sm:grid-cols-6">
           <legend className="mb-3 font-display text-2xl">Shipping address</legend>
-          <input required autoComplete="address-line1" placeholder="Address" aria-label="Address" className="input sm:col-span-6" />
-          <input required autoComplete="address-level2" placeholder="City" aria-label="City" className="input sm:col-span-3" />
-          <input required autoComplete="address-level1" placeholder="State" aria-label="State" className="input sm:col-span-1" />
-          <input required autoComplete="postal-code" placeholder="ZIP" aria-label="ZIP code" className="input sm:col-span-2" />
+          <input required name="address" autoComplete="address-line1" placeholder="Address" aria-label="Address" className="input sm:col-span-6" />
+          <input required name="city" autoComplete="address-level2" placeholder="City" aria-label="City" className="input sm:col-span-3" />
+          <input required name="state" autoComplete="address-level1" placeholder="State" aria-label="State" className="input sm:col-span-1" />
+          <input required name="zip" autoComplete="postal-code" placeholder="ZIP" aria-label="ZIP code" className="input sm:col-span-2" />
         </fieldset>
         <div className="rounded-2xl border border-dashed border-line p-4 text-sm text-muted">
-          <strong className="text-ink">Payment:</strong> this storefront runs in demo mode — no card is charged. Connect Stripe Checkout (see README) to take live payments.
+          <strong className="text-ink">Payment:</strong> no card is charged here. After you place your order, send it to us on WhatsApp or by email and we&apos;ll confirm payment and delivery with you.
         </div>
       </div>
       <aside className="card h-fit p-6 lg:sticky lg:top-28">

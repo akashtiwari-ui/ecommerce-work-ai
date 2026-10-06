@@ -107,11 +107,25 @@ Other SEO and GEO work in the code:
 4. **Google Merchant Center:** add `https://wallers.vercel.app/merchant-feed.xml` as a scheduled-fetch feed for free product listings.
 5. In Vercel → Firewall, keep "Block AI bots" and Attack Challenge Mode **off**. Keep Deployment Protection **off** for production.
 
+## Contact & orders
+
+- **Email:** akashtiwariswe@gmail.com
+- **WhatsApp:** +91 91368 31459
+
+Both are set in `src/lib/site.ts` (`email`, `phone`). They appear in:
+
+- the footer
+- the `/contact` page
+- a floating WhatsApp button
+- an "Ask on WhatsApp" link on every product page
+- the Organization `contactPoint` structured data, `llms.txt` and the FAQ
+
+Until online payments are connected, the checkout confirmation shows **Send on WhatsApp** and **Send by email** buttons. They open a message to you prefilled with the order ID, items, total, and the customer's name, phone and address.
+
 ## Before launch (important)
 
 1. **Replace the sample reviews and ratings** in `src/lib/catalog.ts` with real, verified customer reviews, or remove them. Publishing invented reviews or `AggregateRating` violates Google's structured-data policies and consumer-protection law.
 2. In `src/lib/site.ts`:
-   - Replace the placeholder support email (`hello@wallora.com`) with a real inbox you own. It's published in structured data.
    - Add your real social profiles to `sameAs`, and your X handle to `twitter`. Don't list accounts that don't exist.
 3. **Payments:** checkout currently runs in demo mode. Wire it to Stripe Checkout or Shopify, and create orders server-side. Today's discount maths is client-side and must be recomputed on the server.
 4. **Accounts:** game progress is saved in `localStorage`. Add auth and a database to sync XP across devices and to stop users editing their own level.

@@ -57,6 +57,7 @@ export const sitemapEntries = (): Url[] => [
   { path: "/faq", priority: 0.6, freq: "monthly" },
   { path: "/glossary", priority: 0.5, freq: "monthly" },
   { path: "/about", priority: 0.4, freq: "yearly" },
+  { path: "/contact", priority: 0.5, freq: "yearly" },
   { path: "/shipping-returns", priority: 0.3, freq: "yearly" },
   ...COLLECTIONS.map((c) => ({ path: `/collections/${c.slug}`, priority: 0.85, freq: "weekly" as const, images: [{ loc: absoluteUrl(`/collections/${c.slug}/opengraph-image`), title: `${c.name} wallpaper collection` }] })),
   ...ROOMS.map((r) => ({ path: `/rooms/${r.slug}`, priority: 0.8, freq: "weekly" as const })),

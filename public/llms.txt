@@ -9,6 +9,7 @@ Key facts for agents:
 - Roll formula: rolls = ceil(wall area sq ft ÷ coverage × 1.05–1.15).
 - Machine-readable catalog (JSON, prices, specs): https://wallers.vercel.app/catalog.json
 - Every product and guide page has a Markdown twin: append `.md` to the URL.
+- Contact: WhatsApp +91 91368 31459 (https://wa.me/919136831459) · Email akashtiwariswe@gmail.com · https://wallers.vercel.app/contact
 - Content last reviewed: 2026-10-01
 
 ## Collections
@@ -77,4 +78,5 @@ Key facts for agents:
 - [Glossary of wallpaper terms](https://wallers.vercel.app/glossary)
 - [Shipping & returns](https://wallers.vercel.app/shipping-returns)
 - [About](https://wallers.vercel.app/about)
+- [Contact — WhatsApp & email](https://wallers.vercel.app/contact)
 - [Full content dump for LLMs](https://wallers.vercel.app/llms-full.txt)

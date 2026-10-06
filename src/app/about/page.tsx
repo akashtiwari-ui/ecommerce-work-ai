@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { WallpaperArt } from "@/components/WallpaperArt";
 import { getProduct, PRODUCTS } from "@/lib/catalog";
-import { absoluteUrl, SITE } from "@/lib/site";
+import { absoluteUrl, mailtoUrl, SITE, whatsappUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About Wallora — An Independent Wallpaper Design Studio",
@@ -40,7 +40,7 @@ export default function AboutPage() {
           ["Kind to homes", "Water-based, low-VOC inks; PVC-free film; FSC® paper."],
         ].map(([t, d]) => <div key={t} className="card p-8"><h2 className="font-display text-2xl">{t}</h2><p className="mt-2 text-muted">{d}</p></div>)}
       </section>
-      <p className="wrap mt-12 text-muted">Questions? Email <a className="text-clay underline" href={`mailto:${SITE.email}`}>{SITE.email}</a> or read our <Link href="/faq" className="text-clay underline">FAQ</Link>.</p>
+      <p className="wrap mt-12 text-muted">Questions? <a className="text-clay underline" href={whatsappUrl(`Hi ${SITE.name}!`)} target="_blank" rel="noopener noreferrer">WhatsApp {SITE.phoneDisplay}</a>, email <a className="text-clay underline" href={mailtoUrl()}>{SITE.email}</a> or read our <Link href="/faq" className="text-clay underline">FAQ</Link>.</p>
     </div>
   );
 }

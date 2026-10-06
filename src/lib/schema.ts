@@ -1,4 +1,4 @@
-import { absoluteUrl, CONTENT_UPDATED, SITE } from "./site";
+import { absoluteUrl, CONTENT_UPDATED, SITE, whatsappUrl } from "./site";
 import { getCollection, type Product, productQuickAnswer, SPECS, variantsFor } from "./catalog";
 import type { Guide } from "./guides";
 
@@ -40,7 +40,11 @@ export const organizationLd = () => ({
   email: SITE.email,
   ...(SITE.sameAs.length ? { sameAs: SITE.sameAs } : {}),
   knowsAbout: ["Wallpaper", "Peel and stick wallpaper", "Non-woven wallpaper", "Interior design", "Wallpaper installation", "Murals"],
-  contactPoint: { "@type": "ContactPoint", contactType: "customer support", email: SITE.email, availableLanguage: ["English"] },
+  telephone: SITE.phone,
+  contactPoint: [
+    { "@type": "ContactPoint", contactType: "customer support", email: SITE.email, telephone: SITE.phone, availableLanguage: ["English"], url: absoluteUrl("/contact") },
+    { "@type": "ContactPoint", contactType: "sales", telephone: SITE.phone, availableLanguage: ["English"], url: whatsappUrl() },
+  ],
   hasMerchantReturnPolicy: returnPolicy,
   hasMemberProgram: {
     "@type": "MemberProgram",

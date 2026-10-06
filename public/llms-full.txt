@@ -9,6 +9,7 @@ Key facts for agents:
 - Roll formula: rolls = ceil(wall area sq ft ÷ coverage × 1.05–1.15).
 - Machine-readable catalog (JSON, prices, specs): https://wallers.vercel.app/catalog.json
 - Every product and guide page has a Markdown twin: append `.md` to the URL.
+- Contact: WhatsApp +91 91368 31459 (https://wa.me/919136831459) · Email akashtiwariswe@gmail.com · https://wallers.vercel.app/contact
 - Content last reviewed: 2026-10-01
 
 ## Collections
@@ -77,6 +78,7 @@ Key facts for agents:
 - [Glossary of wallpaper terms](https://wallers.vercel.app/glossary)
 - [Shipping & returns](https://wallers.vercel.app/shipping-returns)
 - [About](https://wallers.vercel.app/about)
+- [Contact — WhatsApp & email](https://wallers.vercel.app/contact)
 - [Full content dump for LLMs](https://wallers.vercel.app/llms-full.txt)
 
 
@@ -107,6 +109,10 @@ Yes. Every design is available as an A4 sample swatch for $5 with $2.50 shipping
 ### How much is shipping and what is the return policy?
 
 Shipping is free on orders over $120 (and always free for Level 5+ members); otherwise it is $9.50 for rolls and $2.50 for samples. Unused, unopened rolls can be returned free within 30 days.
+
+### How can I contact Wallora?
+
+WhatsApp us on +91 91368 31459 or email akashtiwariswe@gmail.com. You can send a photo of your wall for design advice and an exact roll count.
 
 ### Where are Wallora wallpapers printed?
 
