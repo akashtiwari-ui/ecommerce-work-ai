@@ -86,7 +86,7 @@ ${SITE.name} (${SITE.url}) sells original designer wallpaper in two formats — 
 Key facts for agents:
 - Catalog size: ${PRODUCTS.length} designs across ${COLLECTIONS.length} collections; every design has a rarity (Common, Rare, Epic, Legendary).
 - Roll formula: rolls = ceil(wall area sq ft ÷ coverage × 1.05–1.15).
-- Machine-readable catalog (JSON, prices, specs): ${absoluteUrl("/api/catalog")}
+- Machine-readable catalog (JSON, prices, specs): ${absoluteUrl("/catalog.json")}
 - Every product and guide page has a Markdown twin: append \`.md\` to the URL.
 - Content last reviewed: ${CONTENT_UPDATED}
 

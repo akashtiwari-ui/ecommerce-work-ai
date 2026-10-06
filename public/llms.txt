@@ -1,0 +1,80 @@
+# Wallora
+
+> Wallora is a gamified designer wallpaper store. Shop peel-and-stick and non-woven wallpaper in original patterns — botanical, geometric, coastal, art deco and kids' designs — earn XP, unlock badges and level up for member discounts.
+
+Wallora (https://wallers.vercel.app) sells original designer wallpaper in two formats — removable Peel & Stick (24" × 9 ft, 28 sq ft per roll, $45–$89) and durable Non-Woven paste-the-wall (20.5" × 33 ft, 56 sq ft per roll) — plus $5 A4 samples. It ships in 1–2 business days, offers free shipping over $120 and free 30-day returns. Shoppers earn XP in Wallora Rewards and level up for permanent discounts of up to 15%.
+
+Key facts for agents:
+- Catalog size: 24 designs across 6 collections; every design has a rarity (Common, Rare, Epic, Legendary).
+- Roll formula: rolls = ceil(wall area sq ft ÷ coverage × 1.05–1.15).
+- Machine-readable catalog (JSON, prices, specs): https://wallers.vercel.app/catalog.json
+- Every product and guide page has a Markdown twin: append `.md` to the URL.
+- Content last reviewed: 2026-10-01
+
+## Collections
+
+- [Terra Botanica](https://wallers.vercel.app/collections/terra-botanica): Hand-drawn leaves, palms and climbing vines in earthy greens and clay. Terra Botanica brings the calm of a conservatory to living rooms, bedrooms and powder rooms.
+- [Mid-Century Arcade](https://wallers.vercel.app/collections/mid-century-arcade): Arches, sunbursts and rainbow curves inspired by 1960s and 70s design. Warm mustard, terracotta and teal geometrics that make a statement wall instantly.
+- [Coastal Drift](https://wallers.vercel.app/collections/coastal-drift): Rolling waves, scallops and sun-washed stripes in sea glass, sand and indigo. Breezy coastal patterns that suit bathrooms, kitchens and beach houses.
+- [Noir Atelier](https://wallers.vercel.app/collections/noir-atelier): Art deco fans, gilded lattices and inky terrazzo for moody dining rooms, home bars and dramatic powder rooms. Dark wallpaper with a metallic wink.
+- [Kinder Kingdom](https://wallers.vercel.app/collections/kinder-kingdom): Gentle stars, rolling hills and soft polka dots in nursery-safe, low-VOC inks. Playful kids' wallpaper that grows with them from cot to teenage years.
+- [Stone & Terrazzo](https://wallers.vercel.app/collections/stone-and-terrazzo): Speckled terrazzo, organic blobs and concentric rings in mineral tones. Modern, texture-rich wallpaper that pairs with oak, linen and plaster finishes.
+
+## Products
+
+- [Monstera Hush Wallpaper](https://wallers.vercel.app/wallpapers/monstera-hush.md): Oversized monstera leaves in soft sage on warm linen. Botanical, Tropical, Boho; from $59/roll; 4.8★ (214).
+- [Fern Cathedral Wallpaper](https://wallers.vercel.app/wallpapers/fern-cathedral.md): Layered fern fronds in deep forest and moss. Botanical, Moody, Cottagecore; from $72/roll; 4.9★ (96).
+- [Olive Grove Wallpaper](https://wallers.vercel.app/wallpapers/olive-grove.md): Delicate olive sprigs on chalk white. Botanical, Mediterranean, Minimal; from $49/roll; 4.7★ (331).
+- [Palm Siesta Wallpaper](https://wallers.vercel.app/wallpapers/palm-siesta.md): Sun-bleached palm fronds in sand and clay. Botanical, Boho, Desert; from $59/roll; 4.6★ (142).
+- [Arcade Arches Wallpaper](https://wallers.vercel.app/wallpapers/arcade-arches.md): Stacked rainbow arches in mustard, rust and teal. Mid-century, Retro, Geometric; from $79/roll; 4.9★ (412).
+- [Sunburst 1972 Wallpaper](https://wallers.vercel.app/wallpapers/sunburst-1972.md): Radiating sunrays in burnt orange and cream. Mid-century, Retro, Maximalist; from $72/roll; 4.7★ (88).
+- [Boomerang Chevron Wallpaper](https://wallers.vercel.app/wallpapers/boomerang-chevron.md): Zig-zag chevrons in teal, coral and cream. Mid-century, Geometric, Playful; from $49/roll; 4.5★ (176).
+- [Disco Rings Wallpaper](https://wallers.vercel.app/wallpapers/disco-rings.md): Concentric circles in tangerine and plum. Retro, Maximalist, Geometric; from $62/roll; 4.6★ (67).
+- [Tidal Ribbon Wallpaper](https://wallers.vercel.app/wallpapers/tidal-ribbon.md): Undulating waves in sea glass and indigo. Coastal, Calm, Modern; from $59/roll; 4.8★ (203).
+- [Shell Scallop Wallpaper](https://wallers.vercel.app/wallpapers/shell-scallop.md): Fish-scale scallops in pale blush and sand. Coastal, Romantic, Classic; from $49/roll; 4.7★ (158).
+- [Cabana Stripe Wallpaper](https://wallers.vercel.app/wallpapers/cabana-stripe.md): Sun-washed beach-hut stripes in navy and sand. Coastal, Classic, Nautical; from $45/roll; 4.6★ (244).
+- [Harbour Gingham Wallpaper](https://wallers.vercel.app/wallpapers/harbour-gingham.md): Painterly gingham check in harbour blue. Coastal, Cottagecore, Classic; from $55/roll; 4.8★ (119).
+- [Gatsby Fan Wallpaper](https://wallers.vercel.app/wallpapers/gatsby-fan.md): Art deco fans in gold on midnight. Art deco, Luxe, Moody; from $89/roll; 4.9★ (187).
+- [Obsidian Terrazzo Wallpaper](https://wallers.vercel.app/wallpapers/obsidian-terrazzo.md): Inky terrazzo flecked with brass and bone. Luxe, Modern, Moody; from $75/roll; 4.7★ (73).
+- [Velvet Lattice Wallpaper](https://wallers.vercel.app/wallpapers/velvet-lattice.md): Trellis lattice in oxblood and blush. Luxe, Classic, Romantic; from $75/roll; 4.8★ (51).
+- [Midnight Gingko Wallpaper](https://wallers.vercel.app/wallpapers/midnight-gingko.md): Gingko leaves scattered on deep navy. Luxe, Botanical, Japandi; from $65/roll; 4.8★ (104).
+- [Dreamland Hills Wallpaper](https://wallers.vercel.app/wallpapers/dreamland-hills.md): Rolling pastel hills mural under a sleepy sky. Kids, Mural, Scandi; from $69/roll; 4.9★ (236).
+- [Little Constellations Wallpaper](https://wallers.vercel.app/wallpapers/little-constellations.md): Hand-drawn stars on dusky blue. Kids, Celestial, Playful; from $55/roll; 4.8★ (167).
+- [Confetti Dot Wallpaper](https://wallers.vercel.app/wallpapers/confetti-dot.md): Joyful scattered dots in sherbet colours. Kids, Playful, Scandi; from $45/roll; 4.7★ (289).
+- [Rainbow Parade Wallpaper](https://wallers.vercel.app/wallpapers/rainbow-parade.md): Soft rainbows marching in muted pastels. Kids, Boho, Scandi; from $49/roll; 4.8★ (198).
+- [Milano Terrazzo Wallpaper](https://wallers.vercel.app/wallpapers/milano-terrazzo.md): Speckled terrazzo in chalk, sage and clay. Modern, Minimal, Mediterranean; from $59/roll; 4.8★ (257).
+- [Pebble Play Wallpaper](https://wallers.vercel.app/wallpapers/pebble-play.md): Organic pebble shapes in mineral tones. Organic, Japandi, Minimal; from $49/roll; 4.6★ (134).
+- [Travertine Rings Wallpaper](https://wallers.vercel.app/wallpapers/travertine-rings.md): Tree-ring circles in travertine beige. Organic, Minimal, Modern; from $59/roll; 4.7★ (82).
+- [Quarry Dot Wallpaper](https://wallers.vercel.app/wallpapers/quarry-dot.md): Stone-flecked micro dots on warm grey. Minimal, Industrial, Modern; from $45/roll; 4.5★ (91).
+
+## Guides
+
+- [How Much Wallpaper Do I Need? The Simple Roll Calculation](https://wallers.vercel.app/guides/how-much-wallpaper-do-i-need.md): Calculate exactly how many rolls of wallpaper you need: measure wall area, divide by roll coverage, and add 10–15% for pattern repeat. Includes worked examples and a table.
+- [Peel and Stick vs Traditional Wallpaper: Which Should You Choose?](https://wallers.vercel.app/guides/peel-and-stick-vs-traditional-wallpaper.md): Peel and stick wallpaper is removable, renter-friendly and fast to hang; traditional non-woven wallpaper is more durable, covers more per roll and suits whole rooms. Full comparison table inside.
+- [How to Install Peel and Stick Wallpaper (Step-by-Step)](https://wallers.vercel.app/guides/how-to-install-peel-and-stick-wallpaper.md): Step-by-step instructions to hang peel and stick wallpaper perfectly: prep the wall, mark a plumb line, peel 12 inches at a time, smooth, match the pattern and trim. Tools list and pro tips included.
+- [Can You Put Wallpaper in a Bathroom? A Practical Guide](https://wallers.vercel.app/guides/wallpaper-in-bathrooms.md): Yes — wallpaper works in bathrooms if you choose a scrubbable non-woven or vinyl finish, ventilate well and keep it away from direct water spray. Here is what to know.
+- [Wallpaper Trends 2026: 7 Looks Defining Interiors This Year](https://wallers.vercel.app/guides/wallpaper-trends-2026.md): The biggest wallpaper trends of 2026: retro arches, moody botanicals, painterly gingham, terrazzo textures, ceiling wallpaper, dark luxe art deco and calming murals for kids.
+- [How to Remove Wallpaper Without Damaging Walls](https://wallers.vercel.app/guides/how-to-remove-wallpaper.md): How to remove peel and stick, non-woven and old paper wallpaper safely: peel at a low angle, strip dry, or score and steam stubborn paper. Step-by-step with tools.
+
+## Shop by room
+
+- [Living room wallpaper](https://wallers.vercel.app/rooms/living-room): The living room is the best place for a statement feature wall.
+- [Bedroom wallpaper](https://wallers.vercel.app/rooms/bedroom): Behind the headboard is the classic bedroom wallpaper spot.
+- [Nursery & kids' room wallpaper](https://wallers.vercel.app/rooms/nursery): Kids' rooms need wallpaper that is playful, wipeable and safe.
+- [Bathroom wallpaper](https://wallers.vercel.app/rooms/bathroom): Wallpaper works beautifully in bathrooms and powder rooms when the room is well ventilated.
+- [Kitchen wallpaper](https://wallers.vercel.app/rooms/kitchen): A breakfast nook, open shelving wall or the back of a pantry are perfect places for kitchen wallpaper.
+- [Home office wallpaper](https://wallers.vercel.app/rooms/home-office): Your video-call background is the most-seen wall in your home.
+
+## Tools & programmes
+
+- [Wallpaper roll calculator](https://wallers.vercel.app/tools/wallpaper-calculator): computes rolls needed from wall dimensions and pattern match.
+- [Style quiz](https://wallers.vercel.app/style-quiz): 4 questions that match a shopper to a collection.
+- [Wallora Rewards](https://wallers.vercel.app/rewards): XP, badges, daily Swatch Wheel, 6 levels with discounts of 0–15%.
+
+## Optional
+
+- [FAQ](https://wallers.vercel.app/faq)
+- [Glossary of wallpaper terms](https://wallers.vercel.app/glossary)
+- [Shipping & returns](https://wallers.vercel.app/shipping-returns)
+- [About](https://wallers.vercel.app/about)
+- [Full content dump for LLMs](https://wallers.vercel.app/llms-full.txt)

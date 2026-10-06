@@ -27,9 +27,14 @@ export const metadata: Metadata = {
     types: { "application/rss+xml": [{ url: "/rss.xml", title: "Wallora Guides" }] },
   },
   openGraph: { type: "website", siteName: SITE.name, locale: SITE.locale, url: "/" },
-  twitter: { card: "summary_large_image", site: SITE.twitter, creator: SITE.twitter },
+  twitter: { card: "summary_large_image", ...(SITE.twitter ? { site: SITE.twitter, creator: SITE.twitter } : {}) },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   formatDetection: { telephone: false },
+  // Search Console / Bing Webmaster ownership tags (the only verification method for *.vercel.app)
+  verification: {
+    ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } : {}),
+    ...(process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION ? { other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION } } : {}),
+  },
   other: { "llms-txt": `${SITE.url}/llms.txt` },
 };
 
@@ -44,7 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <head>
         <link rel="alternate" type="text/plain" title="LLM-readable site summary" href="/llms.txt" />
-        <link rel="alternate" type="application/json" title="Product catalog (JSON)" href="/api/catalog" />
+        <link rel="alternate" type="application/json" title="Product catalog (JSON)" href="/catalog.json" />
       </head>
       <body className="min-h-dvh">
         <a href="#main" className="sr-only z-50 rounded-full bg-ink px-4 py-2 text-cream focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to content</a>

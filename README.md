@@ -14,11 +14,14 @@ An ecommerce storefront for original wallpaper designs. Shoppers earn **XP**, un
 
 The project has no database or CMS yet. The catalog lives in typed data files (`src/lib/catalog.ts`, `src/lib/guides.ts`), so swapping in Shopify, Sanity or a database later is straightforward.
 
+Live site: **https://wallers.vercel.app**
+
 ```bash
 npm install
-cp .env.example .env.local   # set NEXT_PUBLIC_SITE_URL to your real domain
-npm run dev                  # http://localhost:3000
-npm run build && npm start   # production build (~120 static pages)
+cp .env.example .env.local   # optional: override NEXT_PUBLIC_SITE_URL / verification tags
+npm run dev                  # http://localhost:3000  (regenerates SEO/GEO files first)
+npm run build && npm start   # production build (regenerates SEO/GEO files first)
+npm run seo                  # regenerate only the SEO/GEO files in /public
 npm run lint                 # type-check
 ```
 
@@ -66,24 +69,50 @@ All game rules live in `src/lib/game.ts`.
   - `BreadcrumbList`, `FAQPage` and `CollectionPage`/`ItemList`
   - `Article` + `HowTo` + `speakable`
   - `DefinedTermSet` (glossary) and `WebApplication` (calculator)
-- `sitemap.xml` with priorities, `lastModified` and image entries; `robots.txt`; `manifest.webmanifest`; RSS at `/rss.xml`
+- `sitemap.xml`, `robots.txt`, RSS and a Merchant feed, all as real files (see below), plus `manifest.webmanifest`
+- Search Console and Bing verification meta tags, set through env vars
 - Semantic HTML: one `<h1>` per page, headings phrased as questions, real `<table>`s, `<details>` FAQs with the answers in the DOM, and a skip link
 - Performance: fully static, about 103 kB of shared JS, no images to decode, and pattern tiles cached for a week
 
-## GEO (AI search and agents)
+## SEO & GEO files (all in `public/`)
 
-- **`/llms.txt`** follows the llmstxt.org convention: a concise site map with key facts. **`/llms-full.txt`** contains every product, guide, policy and FAQ as one markdown file.
-- **Markdown twins:** add `.md` to any product or guide URL, e.g. `/wallpapers/arcade-arches.md`. They carry a canonical `Link` header and are set to noindex.
-- **`/api/catalog`** is a public JSON catalog with prices, variants, specs, colours (with hex values), rooms, ratings and buy URLs. It is CORS-enabled for shopping agents.
-- **`robots.txt` explicitly allows AI crawlers**, including GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, Google-Extended and Applebot-Extended.
-- **Quotable "answer-first" content.** Each product has a one-paragraph *At a glance* fact summary, and each guide opens with a TL;DR. Both are marked `data-speakable`.
-- **Freshness and authorship signals:** published and updated dates, author, and `dateModified` in the schema.
-- **Entity consistency:** a single `@id` for the organization is referenced across all schema.
+These are real files you can open in the repo. `scripts/generate-seo.ts` writes them from the catalog. It runs automatically before every `dev` and `build`, including on Vercel, so they never drift out of date. Don't edit them by hand: change `src/lib/catalog.ts`, `src/lib/guides.ts` or `src/lib/site.ts` instead and run `npm run seo`.
+
+| File | URL | What it's for |
+|---|---|---|
+| `public/robots.txt` | `/robots.txt` | Lets every search engine in, explicitly welcomes 24 AI crawlers (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended…), blocks cart/checkout/wishlist, and points to the sitemap |
+| `public/sitemap.xml` | `/sitemap.xml` | Lists all 54 indexable URLs with priorities and `lastmod`, plus product and collection images |
+| `public/llms.txt` | `/llms.txt` | The llmstxt.org file: key facts and a linked map of the site for AI agents |
+| `public/llms-full.txt` | `/llms-full.txt` | All products, guides, FAQs, policies and the glossary as one markdown document for LLMs |
+| `public/wallpapers/*.md` | `/wallpapers/<slug>.md` | A markdown version of each product page |
+| `public/guides/*.md` | `/guides/<slug>.md` | A markdown version of each guide |
+| `public/catalog.json` | `/catalog.json` (also `/api/catalog`) | A JSON product catalog for shopping agents, with CORS open |
+| `public/merchant-feed.xml` | `/merchant-feed.xml` | A Google Merchant Center / Bing Shopping product feed (48 variant items) |
+| `public/rss.xml` | `/rss.xml` | RSS feed of the guides |
+
+All text and markdown AI files are sent with `X-Robots-Tag: noindex, follow`. Crawlers and AI agents can read them, but they won't compete with your real pages in Google results.
+
+Other SEO and GEO work in the code:
+
+- **JSON-LD** in `src/lib/schema.ts`, added per page
+- **OG images** in the `opengraph-image.tsx` files
+- **Metadata** in each `page.tsx` file
+- **Quotable "answer-first" content.** Each product has an *At a glance* paragraph and each guide opens with a TL;DR. Both are marked `data-speakable`.
+
+### Vercel (`wallers.vercel.app`) setup
+
+1. The domain defaults to `https://wallers.vercel.app` (`src/lib/site.ts`). To move to a custom domain later, set `NEXT_PUBLIC_SITE_URL` in Vercel → Settings → Environment Variables and redeploy. Every URL, file and schema updates automatically.
+2. **Google Search Console:** add a *URL prefix* property for `https://wallers.vercel.app/`. Choose the *HTML tag* method, copy the `content` value into the `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` env var, redeploy, click Verify, then submit `sitemap.xml`.
+3. **Bing Webmaster Tools** (Bing's index feeds ChatGPT and Copilot search): do the same with `NEXT_PUBLIC_BING_SITE_VERIFICATION`, then submit `sitemap.xml`.
+4. **Google Merchant Center:** add `https://wallers.vercel.app/merchant-feed.xml` as a scheduled-fetch feed for free product listings.
+5. In Vercel → Firewall, keep "Block AI bots" and Attack Challenge Mode **off**. Keep Deployment Protection **off** for production.
 
 ## Before launch (important)
 
 1. **Replace the sample reviews and ratings** in `src/lib/catalog.ts` with real, verified customer reviews, or remove them. Publishing invented reviews or `AggregateRating` violates Google's structured-data policies and consumer-protection law.
-2. Set `NEXT_PUBLIC_SITE_URL`, and update the brand details and social profiles in `src/lib/site.ts`.
+2. In `src/lib/site.ts`:
+   - Replace the placeholder support email (`hello@wallora.com`) with a real inbox you own. It's published in structured data.
+   - Add your real social profiles to `sameAs`, and your X handle to `twitter`. Don't list accounts that don't exist.
 3. **Payments:** checkout currently runs in demo mode. Wire it to Stripe Checkout or Shopify, and create orders server-side. Today's discount maths is client-side and must be recomputed on the server.
 4. **Accounts:** game progress is saved in `localStorage`. Add auth and a database to sync XP across devices and to stop users editing their own level.
 5. Hook up the newsletter form to your email provider.

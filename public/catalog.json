@@ -1,0 +1,1793 @@
+{
+  "store": "Wallora",
+  "url": "https://wallers.vercel.app",
+  "currency": "USD",
+  "updated": "2026-10-01",
+  "llms": "https://wallers.vercel.app/llms.txt",
+  "policies": {
+    "freeShippingOver": 120,
+    "standardShipping": 9.5,
+    "sampleShipping": 2.5,
+    "returnDays": 30,
+    "handlingDays": "1-2",
+    "transitDays": "2-5"
+  },
+  "formats": {
+    "peel-stick": {
+      "size": "24\" × 9 ft (61 cm × 2.74 m) per roll",
+      "coverage": "28 sq ft (2.6 m²) per roll",
+      "material": "PVC-free matte vinyl film with low-tack, repositionable adhesive",
+      "removal": "Removable without residue on smooth, properly cured painted walls",
+      "durability": "Water-resistant, wipeable with a damp cloth"
+    },
+    "non-woven": {
+      "size": "20.5\" × 33 ft (52 cm × 10 m) per roll",
+      "coverage": "56 sq ft (5.2 m²) per roll",
+      "material": "FSC®-certified non-woven paper, water-based inks",
+      "removal": "Strippable dry — peels off in full lengths",
+      "durability": "Scrubbable, breathable, mould-resistant"
+    }
+  },
+  "collections": [
+    {
+      "slug": "terra-botanica",
+      "name": "Terra Botanica",
+      "description": "Hand-drawn leaves, palms and climbing vines in earthy greens and clay. Terra Botanica brings the calm of a conservatory to living rooms, bedrooms and powder rooms.",
+      "url": "https://wallers.vercel.app/collections/terra-botanica"
+    },
+    {
+      "slug": "mid-century-arcade",
+      "name": "Mid-Century Arcade",
+      "description": "Arches, sunbursts and rainbow curves inspired by 1960s and 70s design. Warm mustard, terracotta and teal geometrics that make a statement wall instantly.",
+      "url": "https://wallers.vercel.app/collections/mid-century-arcade"
+    },
+    {
+      "slug": "coastal-drift",
+      "name": "Coastal Drift",
+      "description": "Rolling waves, scallops and sun-washed stripes in sea glass, sand and indigo. Breezy coastal patterns that suit bathrooms, kitchens and beach houses.",
+      "url": "https://wallers.vercel.app/collections/coastal-drift"
+    },
+    {
+      "slug": "noir-atelier",
+      "name": "Noir Atelier",
+      "description": "Art deco fans, gilded lattices and inky terrazzo for moody dining rooms, home bars and dramatic powder rooms. Dark wallpaper with a metallic wink.",
+      "url": "https://wallers.vercel.app/collections/noir-atelier"
+    },
+    {
+      "slug": "kinder-kingdom",
+      "name": "Kinder Kingdom",
+      "description": "Gentle stars, rolling hills and soft polka dots in nursery-safe, low-VOC inks. Playful kids' wallpaper that grows with them from cot to teenage years.",
+      "url": "https://wallers.vercel.app/collections/kinder-kingdom"
+    },
+    {
+      "slug": "stone-and-terrazzo",
+      "name": "Stone & Terrazzo",
+      "description": "Speckled terrazzo, organic blobs and concentric rings in mineral tones. Modern, texture-rich wallpaper that pairs with oak, linen and plaster finishes.",
+      "url": "https://wallers.vercel.app/collections/stone-and-terrazzo"
+    }
+  ],
+  "products": [
+    {
+      "id": "WL-MONSTERA-HUSH",
+      "slug": "monstera-hush",
+      "name": "Monstera Hush Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/monstera-hush",
+      "markdown": "https://wallers.vercel.app/wallpapers/monstera-hush.md",
+      "image": "https://wallers.vercel.app/wallpapers/monstera-hush/opengraph-image",
+      "summary": "Monstera Hush is a large-scale botanical wallpaper from Wallora's Terra Botanica collection, in linen, sage, pistachio. It costs $59 per peel-and-stick roll (28 sq ft) or $74 per non-woven roll (56 sq ft), has a 24\" (61 cm) pattern repeat with a half-drop match, and is rated 4.8/5 from 214 reviews. Best for: living room, bedroom, bathroom.",
+      "collection": "Terra Botanica",
+      "styles": [
+        "Botanical",
+        "Tropical",
+        "Boho"
+      ],
+      "colors": [
+        {
+          "name": "Linen",
+          "hex": "#efe8da"
+        },
+        {
+          "name": "Sage",
+          "hex": "#7f9472"
+        },
+        {
+          "name": "Pistachio",
+          "hex": "#a9b89a"
+        },
+        {
+          "name": "Terracotta",
+          "hex": "#c8553d"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "bedroom",
+        "bathroom"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "24\" (61 cm)",
+      "match": "Half-drop match",
+      "scale": "Large",
+      "rating": 4.8,
+      "reviewCount": 214,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 59,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/monstera-hush?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 74,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/monstera-hush?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/monstera-hush?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-FERN-CATHEDRAL",
+      "slug": "fern-cathedral",
+      "name": "Fern Cathedral Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/fern-cathedral",
+      "markdown": "https://wallers.vercel.app/wallpapers/fern-cathedral.md",
+      "image": "https://wallers.vercel.app/wallpapers/fern-cathedral/opengraph-image",
+      "summary": "Fern Cathedral is a medium-scale botanical wallpaper from Wallora's Terra Botanica collection, in forest, moss, fern. It costs $72 per peel-and-stick roll (28 sq ft) or $90 per non-woven roll (56 sq ft), has a 21\" (53 cm) pattern repeat with a half-drop match, and is rated 4.9/5 from 96 reviews. Best for: living room, bedroom, home office.",
+      "collection": "Terra Botanica",
+      "styles": [
+        "Botanical",
+        "Moody",
+        "Cottagecore"
+      ],
+      "colors": [
+        {
+          "name": "Forest",
+          "hex": "#23382c"
+        },
+        {
+          "name": "Moss",
+          "hex": "#4f7a55"
+        },
+        {
+          "name": "Fern",
+          "hex": "#8fb07a"
+        },
+        {
+          "name": "Parchment",
+          "hex": "#e8d9b5"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "bedroom",
+        "home-office"
+      ],
+      "rarity": "Epic",
+      "rarityXp": 75,
+      "repeat": "21\" (53 cm)",
+      "match": "Half-drop match",
+      "scale": "Medium",
+      "rating": 4.9,
+      "reviewCount": 96,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 72,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/fern-cathedral?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 90,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/fern-cathedral?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/fern-cathedral?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-OLIVE-GROVE",
+      "slug": "olive-grove",
+      "name": "Olive Grove Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/olive-grove",
+      "markdown": "https://wallers.vercel.app/wallpapers/olive-grove.md",
+      "image": "https://wallers.vercel.app/wallpapers/olive-grove/opengraph-image",
+      "summary": "Olive Grove is a small-scale botanical wallpaper from Wallora's Terra Botanica collection, in chalk, olive, silver leaf. It costs $49 per peel-and-stick roll (28 sq ft) or $61 per non-woven roll (56 sq ft), has a 18\" (46 cm) pattern repeat with a straight match, and is rated 4.7/5 from 331 reviews. Best for: kitchen, bedroom, nursery & kids' room.",
+      "collection": "Terra Botanica",
+      "styles": [
+        "Botanical",
+        "Mediterranean",
+        "Minimal"
+      ],
+      "colors": [
+        {
+          "name": "Chalk",
+          "hex": "#f6f3ec"
+        },
+        {
+          "name": "Olive",
+          "hex": "#8c9a6b"
+        },
+        {
+          "name": "Silver leaf",
+          "hex": "#b9c19a"
+        },
+        {
+          "name": "Damson",
+          "hex": "#5b3a4e"
+        }
+      ],
+      "rooms": [
+        "kitchen",
+        "bedroom",
+        "nursery"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "18\" (46 cm)",
+      "match": "Straight match",
+      "scale": "Small",
+      "rating": 4.7,
+      "reviewCount": 331,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 49,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/olive-grove?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 61,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/olive-grove?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/olive-grove?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-PALM-SIESTA",
+      "slug": "palm-siesta",
+      "name": "Palm Siesta Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/palm-siesta",
+      "markdown": "https://wallers.vercel.app/wallpapers/palm-siesta.md",
+      "image": "https://wallers.vercel.app/wallpapers/palm-siesta/opengraph-image",
+      "summary": "Palm Siesta is a large-scale botanical wallpaper from Wallora's Terra Botanica collection, in sand, clay, apricot. It costs $59 per peel-and-stick roll (28 sq ft) or $74 per non-woven roll (56 sq ft), has a 24\" (61 cm) pattern repeat with a half-drop match, and is rated 4.6/5 from 142 reviews. Best for: living room, bathroom, bedroom.",
+      "collection": "Terra Botanica",
+      "styles": [
+        "Botanical",
+        "Boho",
+        "Desert"
+      ],
+      "colors": [
+        {
+          "name": "Sand",
+          "hex": "#f1dfc6"
+        },
+        {
+          "name": "Clay",
+          "hex": "#c97b4a"
+        },
+        {
+          "name": "Apricot",
+          "hex": "#e2b48a"
+        },
+        {
+          "name": "Palm",
+          "hex": "#3f5a4a"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "bathroom",
+        "bedroom"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "24\" (61 cm)",
+      "match": "Half-drop match",
+      "scale": "Large",
+      "rating": 4.6,
+      "reviewCount": 142,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 59,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/palm-siesta?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 74,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/palm-siesta?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/palm-siesta?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-ARCADE-ARCHES",
+      "slug": "arcade-arches",
+      "name": "Arcade Arches Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/arcade-arches",
+      "markdown": "https://wallers.vercel.app/wallpapers/arcade-arches.md",
+      "image": "https://wallers.vercel.app/wallpapers/arcade-arches/opengraph-image",
+      "summary": "Arcade Arches is a medium-scale mid-century wallpaper from Wallora's Mid-Century Arcade collection, in cream, mustard, rust. It costs $79 per peel-and-stick roll (28 sq ft) or $99 per non-woven roll (56 sq ft), has a 20.5\" (52 cm) pattern repeat with a straight match, and is rated 4.9/5 from 412 reviews. Best for: living room, nursery & kids' room, home office.",
+      "collection": "Mid-Century Arcade",
+      "styles": [
+        "Mid-century",
+        "Retro",
+        "Geometric"
+      ],
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#f4e9d8"
+        },
+        {
+          "name": "Mustard",
+          "hex": "#d4932f"
+        },
+        {
+          "name": "Rust",
+          "hex": "#b8502f"
+        },
+        {
+          "name": "Teal",
+          "hex": "#2f6f6a"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "nursery",
+        "home-office"
+      ],
+      "rarity": "Legendary",
+      "rarityXp": 150,
+      "repeat": "20.5\" (52 cm)",
+      "match": "Straight match",
+      "scale": "Medium",
+      "rating": 4.9,
+      "reviewCount": 412,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 79,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/arcade-arches?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 99,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/arcade-arches?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/arcade-arches?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-SUNBURST-1972",
+      "slug": "sunburst-1972",
+      "name": "Sunburst 1972 Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/sunburst-1972",
+      "markdown": "https://wallers.vercel.app/wallpapers/sunburst-1972.md",
+      "image": "https://wallers.vercel.app/wallpapers/sunburst-1972/opengraph-image",
+      "summary": "Sunburst 1972 is a large-scale mid-century wallpaper from Wallora's Mid-Century Arcade collection, in cream, burnt orange, marigold. It costs $72 per peel-and-stick roll (28 sq ft) or $90 per non-woven roll (56 sq ft), has a 27\" (69 cm) pattern repeat with a straight match, and is rated 4.7/5 from 88 reviews. Best for: living room, kitchen.",
+      "collection": "Mid-Century Arcade",
+      "styles": [
+        "Mid-century",
+        "Retro",
+        "Maximalist"
+      ],
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#f6ead7"
+        },
+        {
+          "name": "Burnt orange",
+          "hex": "#d9772b"
+        },
+        {
+          "name": "Marigold",
+          "hex": "#ecb35c"
+        },
+        {
+          "name": "Cocoa",
+          "hex": "#6b3a2a"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "kitchen"
+      ],
+      "rarity": "Epic",
+      "rarityXp": 75,
+      "repeat": "27\" (69 cm)",
+      "match": "Straight match",
+      "scale": "Large",
+      "rating": 4.7,
+      "reviewCount": 88,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 72,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/sunburst-1972?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 90,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/sunburst-1972?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/sunburst-1972?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-BOOMERANG-CHEVRON",
+      "slug": "boomerang-chevron",
+      "name": "Boomerang Chevron Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/boomerang-chevron",
+      "markdown": "https://wallers.vercel.app/wallpapers/boomerang-chevron.md",
+      "image": "https://wallers.vercel.app/wallpapers/boomerang-chevron/opengraph-image",
+      "summary": "Boomerang Chevron is a small-scale mid-century wallpaper from Wallora's Mid-Century Arcade collection, in cream, teal, coral. It costs $49 per peel-and-stick roll (28 sq ft) or $61 per non-woven roll (56 sq ft), has a 12\" (30 cm) pattern repeat with a straight match, and is rated 4.5/5 from 176 reviews. Best for: home office, kitchen, nursery & kids' room.",
+      "collection": "Mid-Century Arcade",
+      "styles": [
+        "Mid-century",
+        "Geometric",
+        "Playful"
+      ],
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#f3ede2"
+        },
+        {
+          "name": "Teal",
+          "hex": "#2f6f6a"
+        },
+        {
+          "name": "Coral",
+          "hex": "#e07a5f"
+        },
+        {
+          "name": "Butter",
+          "hex": "#f2cc8f"
+        }
+      ],
+      "rooms": [
+        "home-office",
+        "kitchen",
+        "nursery"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "12\" (30 cm)",
+      "match": "Straight match",
+      "scale": "Small",
+      "rating": 4.5,
+      "reviewCount": 176,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 49,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/boomerang-chevron?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 61,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/boomerang-chevron?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/boomerang-chevron?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-DISCO-RINGS",
+      "slug": "disco-rings",
+      "name": "Disco Rings Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/disco-rings",
+      "markdown": "https://wallers.vercel.app/wallpapers/disco-rings.md",
+      "image": "https://wallers.vercel.app/wallpapers/disco-rings/opengraph-image",
+      "summary": "Disco Rings is a medium-scale retro wallpaper from Wallora's Mid-Century Arcade collection, in peach, tangerine, plum. It costs $62 per peel-and-stick roll (28 sq ft) or $78 per non-woven roll (56 sq ft), has a 16\" (41 cm) pattern repeat with a straight match, and is rated 4.6/5 from 67 reviews. Best for: living room, home office.",
+      "collection": "Mid-Century Arcade",
+      "styles": [
+        "Retro",
+        "Maximalist",
+        "Geometric"
+      ],
+      "colors": [
+        {
+          "name": "Peach",
+          "hex": "#f7e4cf"
+        },
+        {
+          "name": "Tangerine",
+          "hex": "#e0712c"
+        },
+        {
+          "name": "Plum",
+          "hex": "#7a4a6a"
+        },
+        {
+          "name": "Sunflower",
+          "hex": "#f2c14e"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "home-office"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "16\" (41 cm)",
+      "match": "Straight match",
+      "scale": "Medium",
+      "rating": 4.6,
+      "reviewCount": 67,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 62,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/disco-rings?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 78,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/disco-rings?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/disco-rings?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-TIDAL-RIBBON",
+      "slug": "tidal-ribbon",
+      "name": "Tidal Ribbon Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/tidal-ribbon",
+      "markdown": "https://wallers.vercel.app/wallpapers/tidal-ribbon.md",
+      "image": "https://wallers.vercel.app/wallpapers/tidal-ribbon/opengraph-image",
+      "summary": "Tidal Ribbon is a medium-scale coastal wallpaper from Wallora's Coastal Drift collection, in sea mist, indigo, sea glass. It costs $59 per peel-and-stick roll (28 sq ft) or $74 per non-woven roll (56 sq ft), has a 20.5\" (52 cm) pattern repeat with a straight match, and is rated 4.8/5 from 203 reviews. Best for: bathroom, bedroom, kitchen.",
+      "collection": "Coastal Drift",
+      "styles": [
+        "Coastal",
+        "Calm",
+        "Modern"
+      ],
+      "colors": [
+        {
+          "name": "Sea mist",
+          "hex": "#eef2ee"
+        },
+        {
+          "name": "Indigo",
+          "hex": "#2e5a7a"
+        },
+        {
+          "name": "Sea glass",
+          "hex": "#8fb8b0"
+        },
+        {
+          "name": "Driftwood",
+          "hex": "#d9c7a6"
+        }
+      ],
+      "rooms": [
+        "bathroom",
+        "bedroom",
+        "kitchen"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "20.5\" (52 cm)",
+      "match": "Straight match",
+      "scale": "Medium",
+      "rating": 4.8,
+      "reviewCount": 203,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 59,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/tidal-ribbon?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 74,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/tidal-ribbon?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/tidal-ribbon?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-SHELL-SCALLOP",
+      "slug": "shell-scallop",
+      "name": "Shell Scallop Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/shell-scallop",
+      "markdown": "https://wallers.vercel.app/wallpapers/shell-scallop.md",
+      "image": "https://wallers.vercel.app/wallpapers/shell-scallop/opengraph-image",
+      "summary": "Shell Scallop is a small-scale coastal wallpaper from Wallora's Coastal Drift collection, in shell, blush, coral sand. It costs $49 per peel-and-stick roll (28 sq ft) or $61 per non-woven roll (56 sq ft), has a 8\" (20 cm) pattern repeat with a straight match, and is rated 4.7/5 from 158 reviews. Best for: bathroom, nursery & kids' room, bedroom.",
+      "collection": "Coastal Drift",
+      "styles": [
+        "Coastal",
+        "Romantic",
+        "Classic"
+      ],
+      "colors": [
+        {
+          "name": "Shell",
+          "hex": "#f8ede6"
+        },
+        {
+          "name": "Blush",
+          "hex": "#e3b7a0"
+        },
+        {
+          "name": "Coral sand",
+          "hex": "#c98f78"
+        },
+        {
+          "name": "Sea foam",
+          "hex": "#7d9a9a"
+        }
+      ],
+      "rooms": [
+        "bathroom",
+        "nursery",
+        "bedroom"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "8\" (20 cm)",
+      "match": "Straight match",
+      "scale": "Small",
+      "rating": 4.7,
+      "reviewCount": 158,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 49,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/shell-scallop?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 61,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/shell-scallop?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/shell-scallop?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-CABANA-STRIPE",
+      "slug": "cabana-stripe",
+      "name": "Cabana Stripe Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/cabana-stripe",
+      "markdown": "https://wallers.vercel.app/wallpapers/cabana-stripe.md",
+      "image": "https://wallers.vercel.app/wallpapers/cabana-stripe/opengraph-image",
+      "summary": "Cabana Stripe is a medium-scale coastal wallpaper from Wallora's Coastal Drift collection, in sand, navy, dune. It costs $45 per peel-and-stick roll (28 sq ft) or $56 per non-woven roll (56 sq ft), has a Random match pattern repeat with a random match, and is rated 4.6/5 from 244 reviews. Best for: kitchen, bathroom, nursery & kids' room.",
+      "collection": "Coastal Drift",
+      "styles": [
+        "Coastal",
+        "Classic",
+        "Nautical"
+      ],
+      "colors": [
+        {
+          "name": "Sand",
+          "hex": "#f4ecdc"
+        },
+        {
+          "name": "Navy",
+          "hex": "#24476b"
+        },
+        {
+          "name": "Dune",
+          "hex": "#c9b48f"
+        },
+        {
+          "name": "Coral",
+          "hex": "#e07a5f"
+        }
+      ],
+      "rooms": [
+        "kitchen",
+        "bathroom",
+        "nursery"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "Random match",
+      "match": "Random match",
+      "scale": "Medium",
+      "rating": 4.6,
+      "reviewCount": 244,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 45,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/cabana-stripe?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 56,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/cabana-stripe?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/cabana-stripe?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-HARBOUR-GINGHAM",
+      "slug": "harbour-gingham",
+      "name": "Harbour Gingham Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/harbour-gingham",
+      "markdown": "https://wallers.vercel.app/wallpapers/harbour-gingham.md",
+      "image": "https://wallers.vercel.app/wallpapers/harbour-gingham/opengraph-image",
+      "summary": "Harbour Gingham is a small-scale coastal wallpaper from Wallora's Coastal Drift collection, in chalk, harbour blue, sky. It costs $55 per peel-and-stick roll (28 sq ft) or $69 per non-woven roll (56 sq ft), has a 6\" (15 cm) pattern repeat with a straight match, and is rated 4.8/5 from 119 reviews. Best for: kitchen, nursery & kids' room, bathroom.",
+      "collection": "Coastal Drift",
+      "styles": [
+        "Coastal",
+        "Cottagecore",
+        "Classic"
+      ],
+      "colors": [
+        {
+          "name": "Chalk",
+          "hex": "#f5f3ee"
+        },
+        {
+          "name": "Harbour blue",
+          "hex": "#4a78a3"
+        },
+        {
+          "name": "Sky",
+          "hex": "#a9c3d9"
+        },
+        {
+          "name": "Buoy yellow",
+          "hex": "#e8b04b"
+        }
+      ],
+      "rooms": [
+        "kitchen",
+        "nursery",
+        "bathroom"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "6\" (15 cm)",
+      "match": "Straight match",
+      "scale": "Small",
+      "rating": 4.8,
+      "reviewCount": 119,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 55,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/harbour-gingham?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 69,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/harbour-gingham?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/harbour-gingham?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-GATSBY-FAN",
+      "slug": "gatsby-fan",
+      "name": "Gatsby Fan Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/gatsby-fan",
+      "markdown": "https://wallers.vercel.app/wallpapers/gatsby-fan.md",
+      "image": "https://wallers.vercel.app/wallpapers/gatsby-fan/opengraph-image",
+      "summary": "Gatsby Fan is a medium-scale art deco wallpaper from Wallora's Noir Atelier collection, in midnight, antique gold, smoke. It costs $89 per peel-and-stick roll (28 sq ft) or $111 per non-woven roll (56 sq ft), has a 20.5\" (52 cm) pattern repeat with a half-drop match, and is rated 4.9/5 from 187 reviews. Best for: living room, bathroom, bedroom.",
+      "collection": "Noir Atelier",
+      "styles": [
+        "Art deco",
+        "Luxe",
+        "Moody"
+      ],
+      "colors": [
+        {
+          "name": "Midnight",
+          "hex": "#16181f"
+        },
+        {
+          "name": "Antique gold",
+          "hex": "#c9a24b"
+        },
+        {
+          "name": "Smoke",
+          "hex": "#5d5a4f"
+        },
+        {
+          "name": "Champagne",
+          "hex": "#e8d7a5"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "bathroom",
+        "bedroom"
+      ],
+      "rarity": "Legendary",
+      "rarityXp": 150,
+      "repeat": "20.5\" (52 cm)",
+      "match": "Half-drop match",
+      "scale": "Medium",
+      "rating": 4.9,
+      "reviewCount": 187,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 89,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/gatsby-fan?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 111,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/gatsby-fan?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/gatsby-fan?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-OBSIDIAN-TERRAZZO",
+      "slug": "obsidian-terrazzo",
+      "name": "Obsidian Terrazzo Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/obsidian-terrazzo",
+      "markdown": "https://wallers.vercel.app/wallpapers/obsidian-terrazzo.md",
+      "image": "https://wallers.vercel.app/wallpapers/obsidian-terrazzo/opengraph-image",
+      "summary": "Obsidian Terrazzo is a small-scale luxe wallpaper from Wallora's Noir Atelier collection, in obsidian, brass, bone. It costs $75 per peel-and-stick roll (28 sq ft) or $94 per non-woven roll (56 sq ft), has a Random match pattern repeat with a random match, and is rated 4.7/5 from 73 reviews. Best for: bathroom, kitchen, home office.",
+      "collection": "Noir Atelier",
+      "styles": [
+        "Luxe",
+        "Modern",
+        "Moody"
+      ],
+      "colors": [
+        {
+          "name": "Obsidian",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Brass",
+          "hex": "#b38b4d"
+        },
+        {
+          "name": "Bone",
+          "hex": "#e9e1d3"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#6e6a64"
+        }
+      ],
+      "rooms": [
+        "bathroom",
+        "kitchen",
+        "home-office"
+      ],
+      "rarity": "Epic",
+      "rarityXp": 75,
+      "repeat": "Random match",
+      "match": "Random match",
+      "scale": "Small",
+      "rating": 4.7,
+      "reviewCount": 73,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 75,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/obsidian-terrazzo?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 94,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/obsidian-terrazzo?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/obsidian-terrazzo?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-VELVET-LATTICE",
+      "slug": "velvet-lattice",
+      "name": "Velvet Lattice Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/velvet-lattice",
+      "markdown": "https://wallers.vercel.app/wallpapers/velvet-lattice.md",
+      "image": "https://wallers.vercel.app/wallpapers/velvet-lattice/opengraph-image",
+      "summary": "Velvet Lattice is a small-scale luxe wallpaper from Wallora's Noir Atelier collection, in oxblood, rose, garnet. It costs $75 per peel-and-stick roll (28 sq ft) or $94 per non-woven roll (56 sq ft), has a 10\" (25 cm) pattern repeat with a straight match, and is rated 4.8/5 from 51 reviews. Best for: bedroom, living room.",
+      "collection": "Noir Atelier",
+      "styles": [
+        "Luxe",
+        "Classic",
+        "Romantic"
+      ],
+      "colors": [
+        {
+          "name": "Oxblood",
+          "hex": "#3b1820"
+        },
+        {
+          "name": "Rose",
+          "hex": "#b0646b"
+        },
+        {
+          "name": "Garnet",
+          "hex": "#7a2e3a"
+        },
+        {
+          "name": "Blush",
+          "hex": "#e6bfa8"
+        }
+      ],
+      "rooms": [
+        "bedroom",
+        "living-room"
+      ],
+      "rarity": "Epic",
+      "rarityXp": 75,
+      "repeat": "10\" (25 cm)",
+      "match": "Straight match",
+      "scale": "Small",
+      "rating": 4.8,
+      "reviewCount": 51,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 75,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/velvet-lattice?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 94,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/velvet-lattice?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/velvet-lattice?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-MIDNIGHT-GINGKO",
+      "slug": "midnight-gingko",
+      "name": "Midnight Gingko Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/midnight-gingko",
+      "markdown": "https://wallers.vercel.app/wallpapers/midnight-gingko.md",
+      "image": "https://wallers.vercel.app/wallpapers/midnight-gingko/opengraph-image",
+      "summary": "Midnight Gingko is a medium-scale luxe wallpaper from Wallora's Noir Atelier collection, in midnight navy, gold, dusk. It costs $65 per peel-and-stick roll (28 sq ft) or $81 per non-woven roll (56 sq ft), has a 21\" (53 cm) pattern repeat with a half-drop match, and is rated 4.8/5 from 104 reviews. Best for: bedroom, home office, bathroom.",
+      "collection": "Noir Atelier",
+      "styles": [
+        "Luxe",
+        "Botanical",
+        "Japandi"
+      ],
+      "colors": [
+        {
+          "name": "Midnight navy",
+          "hex": "#18233a"
+        },
+        {
+          "name": "Gold",
+          "hex": "#c9a24b"
+        },
+        {
+          "name": "Dusk",
+          "hex": "#3a4d6e"
+        },
+        {
+          "name": "Champagne",
+          "hex": "#e8d7a5"
+        }
+      ],
+      "rooms": [
+        "bedroom",
+        "home-office",
+        "bathroom"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "21\" (53 cm)",
+      "match": "Half-drop match",
+      "scale": "Medium",
+      "rating": 4.8,
+      "reviewCount": 104,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 65,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/midnight-gingko?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 81,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/midnight-gingko?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/midnight-gingko?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-DREAMLAND-HILLS",
+      "slug": "dreamland-hills",
+      "name": "Dreamland Hills Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/dreamland-hills",
+      "markdown": "https://wallers.vercel.app/wallpapers/dreamland-hills.md",
+      "image": "https://wallers.vercel.app/wallpapers/dreamland-hills/opengraph-image",
+      "summary": "Dreamland Hills is a mural-scale kids wallpaper from Wallora's Kinder Kingdom collection, in oat, meadow, peach. It costs $69 per peel-and-stick roll (28 sq ft) or $86 per non-woven roll (56 sq ft), has a Mural — 3 panels pattern repeat with a straight match, and is rated 4.9/5 from 236 reviews. Best for: nursery & kids' room, bedroom.",
+      "collection": "Kinder Kingdom",
+      "styles": [
+        "Kids",
+        "Mural",
+        "Scandi"
+      ],
+      "colors": [
+        {
+          "name": "Oat",
+          "hex": "#f6efe6"
+        },
+        {
+          "name": "Meadow",
+          "hex": "#9fb8a0"
+        },
+        {
+          "name": "Peach",
+          "hex": "#e5b9a3"
+        },
+        {
+          "name": "Sunshine",
+          "hex": "#f2d38a"
+        }
+      ],
+      "rooms": [
+        "nursery",
+        "bedroom"
+      ],
+      "rarity": "Epic",
+      "rarityXp": 75,
+      "repeat": "Mural — 3 panels",
+      "match": "Straight match",
+      "scale": "Mural",
+      "rating": 4.9,
+      "reviewCount": 236,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 69,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/dreamland-hills?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 86,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/dreamland-hills?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/dreamland-hills?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-LITTLE-CONSTELLATIONS",
+      "slug": "little-constellations",
+      "name": "Little Constellations Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/little-constellations",
+      "markdown": "https://wallers.vercel.app/wallpapers/little-constellations.md",
+      "image": "https://wallers.vercel.app/wallpapers/little-constellations/opengraph-image",
+      "summary": "Little Constellations is a small-scale kids wallpaper from Wallora's Kinder Kingdom collection, in night sky, starlight, twilight. It costs $55 per peel-and-stick roll (28 sq ft) or $69 per non-woven roll (56 sq ft), has a 16\" (41 cm) pattern repeat with a straight match, and is rated 4.8/5 from 167 reviews. Best for: nursery & kids' room, bedroom.",
+      "collection": "Kinder Kingdom",
+      "styles": [
+        "Kids",
+        "Celestial",
+        "Playful"
+      ],
+      "colors": [
+        {
+          "name": "Night sky",
+          "hex": "#2c3e5c"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#f2d38a"
+        },
+        {
+          "name": "Twilight",
+          "hex": "#8aa3c2"
+        },
+        {
+          "name": "Moon",
+          "hex": "#f6efe6"
+        }
+      ],
+      "rooms": [
+        "nursery",
+        "bedroom"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "16\" (41 cm)",
+      "match": "Straight match",
+      "scale": "Small",
+      "rating": 4.8,
+      "reviewCount": 167,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 55,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/little-constellations?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 69,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/little-constellations?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/little-constellations?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-CONFETTI-DOT",
+      "slug": "confetti-dot",
+      "name": "Confetti Dot Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/confetti-dot",
+      "markdown": "https://wallers.vercel.app/wallpapers/confetti-dot.md",
+      "image": "https://wallers.vercel.app/wallpapers/confetti-dot/opengraph-image",
+      "summary": "Confetti Dot is a small-scale kids wallpaper from Wallora's Kinder Kingdom collection, in milk, watermelon, mint. It costs $45 per peel-and-stick roll (28 sq ft) or $56 per non-woven roll (56 sq ft), has a Random match pattern repeat with a random match, and is rated 4.7/5 from 289 reviews. Best for: nursery & kids' room, bathroom, kitchen.",
+      "collection": "Kinder Kingdom",
+      "styles": [
+        "Kids",
+        "Playful",
+        "Scandi"
+      ],
+      "colors": [
+        {
+          "name": "Milk",
+          "hex": "#fbf6ee"
+        },
+        {
+          "name": "Watermelon",
+          "hex": "#e58f7a"
+        },
+        {
+          "name": "Mint",
+          "hex": "#7fb3a6"
+        },
+        {
+          "name": "Lemon",
+          "hex": "#f2c14e"
+        }
+      ],
+      "rooms": [
+        "nursery",
+        "bathroom",
+        "kitchen"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "Random match",
+      "match": "Random match",
+      "scale": "Small",
+      "rating": 4.7,
+      "reviewCount": 289,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 45,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/confetti-dot?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 56,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/confetti-dot?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/confetti-dot?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-RAINBOW-PARADE",
+      "slug": "rainbow-parade",
+      "name": "Rainbow Parade Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/rainbow-parade",
+      "markdown": "https://wallers.vercel.app/wallpapers/rainbow-parade.md",
+      "image": "https://wallers.vercel.app/wallpapers/rainbow-parade/opengraph-image",
+      "summary": "Rainbow Parade is a small-scale kids wallpaper from Wallora's Kinder Kingdom collection, in cream, peach, sage. It costs $49 per peel-and-stick roll (28 sq ft) or $61 per non-woven roll (56 sq ft), has a 12\" (30 cm) pattern repeat with a straight match, and is rated 4.8/5 from 198 reviews. Best for: nursery & kids' room, bedroom.",
+      "collection": "Kinder Kingdom",
+      "styles": [
+        "Kids",
+        "Boho",
+        "Scandi"
+      ],
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#f8f1e7"
+        },
+        {
+          "name": "Peach",
+          "hex": "#e5a48c"
+        },
+        {
+          "name": "Sage",
+          "hex": "#b8c9a8"
+        },
+        {
+          "name": "Powder blue",
+          "hex": "#9bb4cf"
+        }
+      ],
+      "rooms": [
+        "nursery",
+        "bedroom"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "12\" (30 cm)",
+      "match": "Straight match",
+      "scale": "Small",
+      "rating": 4.8,
+      "reviewCount": 198,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 49,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/rainbow-parade?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 61,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/rainbow-parade?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/rainbow-parade?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-MILANO-TERRAZZO",
+      "slug": "milano-terrazzo",
+      "name": "Milano Terrazzo Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/milano-terrazzo",
+      "markdown": "https://wallers.vercel.app/wallpapers/milano-terrazzo.md",
+      "image": "https://wallers.vercel.app/wallpapers/milano-terrazzo/opengraph-image",
+      "summary": "Milano Terrazzo is a small-scale modern wallpaper from Wallora's Stone & Terrazzo collection, in chalk, clay, sage. It costs $59 per peel-and-stick roll (28 sq ft) or $74 per non-woven roll (56 sq ft), has a Random match pattern repeat with a random match, and is rated 4.8/5 from 257 reviews. Best for: kitchen, bathroom, home office.",
+      "collection": "Stone & Terrazzo",
+      "styles": [
+        "Modern",
+        "Minimal",
+        "Mediterranean"
+      ],
+      "colors": [
+        {
+          "name": "Chalk",
+          "hex": "#f1ece3"
+        },
+        {
+          "name": "Clay",
+          "hex": "#c8553d"
+        },
+        {
+          "name": "Sage",
+          "hex": "#8a9a7b"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#2d2a26"
+        }
+      ],
+      "rooms": [
+        "kitchen",
+        "bathroom",
+        "home-office"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "Random match",
+      "match": "Random match",
+      "scale": "Small",
+      "rating": 4.8,
+      "reviewCount": 257,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 59,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/milano-terrazzo?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 74,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/milano-terrazzo?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/milano-terrazzo?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-PEBBLE-PLAY",
+      "slug": "pebble-play",
+      "name": "Pebble Play Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/pebble-play",
+      "markdown": "https://wallers.vercel.app/wallpapers/pebble-play.md",
+      "image": "https://wallers.vercel.app/wallpapers/pebble-play/opengraph-image",
+      "summary": "Pebble Play is a medium-scale organic wallpaper from Wallora's Stone & Terrazzo collection, in limestone, taupe, sage. It costs $49 per peel-and-stick roll (28 sq ft) or $61 per non-woven roll (56 sq ft), has a 18\" (46 cm) pattern repeat with a straight match, and is rated 4.6/5 from 134 reviews. Best for: bedroom, living room, home office.",
+      "collection": "Stone & Terrazzo",
+      "styles": [
+        "Organic",
+        "Japandi",
+        "Minimal"
+      ],
+      "colors": [
+        {
+          "name": "Limestone",
+          "hex": "#ece6dc"
+        },
+        {
+          "name": "Taupe",
+          "hex": "#b9a58f"
+        },
+        {
+          "name": "Sage",
+          "hex": "#8a9a7b"
+        },
+        {
+          "name": "Sandstone",
+          "hex": "#d6b49b"
+        }
+      ],
+      "rooms": [
+        "bedroom",
+        "living-room",
+        "home-office"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "18\" (46 cm)",
+      "match": "Straight match",
+      "scale": "Medium",
+      "rating": 4.6,
+      "reviewCount": 134,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 49,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/pebble-play?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 61,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/pebble-play?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/pebble-play?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-TRAVERTINE-RINGS",
+      "slug": "travertine-rings",
+      "name": "Travertine Rings Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/travertine-rings",
+      "markdown": "https://wallers.vercel.app/wallpapers/travertine-rings.md",
+      "image": "https://wallers.vercel.app/wallpapers/travertine-rings/opengraph-image",
+      "summary": "Travertine Rings is a medium-scale organic wallpaper from Wallora's Stone & Terrazzo collection, in travertine, oat, walnut. It costs $59 per peel-and-stick roll (28 sq ft) or $74 per non-woven roll (56 sq ft), has a 16\" (41 cm) pattern repeat with a straight match, and is rated 4.7/5 from 82 reviews. Best for: living room, home office, bedroom.",
+      "collection": "Stone & Terrazzo",
+      "styles": [
+        "Organic",
+        "Minimal",
+        "Modern"
+      ],
+      "colors": [
+        {
+          "name": "Travertine",
+          "hex": "#efe6d8"
+        },
+        {
+          "name": "Oat",
+          "hex": "#c8b49a"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#a68b6d"
+        },
+        {
+          "name": "Umber",
+          "hex": "#6e5a47"
+        }
+      ],
+      "rooms": [
+        "living-room",
+        "home-office",
+        "bedroom"
+      ],
+      "rarity": "Rare",
+      "rarityXp": 40,
+      "repeat": "16\" (41 cm)",
+      "match": "Straight match",
+      "scale": "Medium",
+      "rating": 4.7,
+      "reviewCount": 82,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 59,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/travertine-rings?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 74,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/travertine-rings?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/travertine-rings?variant=sample"
+        }
+      ]
+    },
+    {
+      "id": "WL-QUARRY-DOT",
+      "slug": "quarry-dot",
+      "name": "Quarry Dot Wallpaper",
+      "url": "https://wallers.vercel.app/wallpapers/quarry-dot",
+      "markdown": "https://wallers.vercel.app/wallpapers/quarry-dot.md",
+      "image": "https://wallers.vercel.app/wallpapers/quarry-dot/opengraph-image",
+      "summary": "Quarry Dot is a small-scale minimal wallpaper from Wallora's Stone & Terrazzo collection, in warm grey, slate, pumice. It costs $45 per peel-and-stick roll (28 sq ft) or $56 per non-woven roll (56 sq ft), has a Random match pattern repeat with a random match, and is rated 4.5/5 from 91 reviews. Best for: home office, bathroom, kitchen.",
+      "collection": "Stone & Terrazzo",
+      "styles": [
+        "Minimal",
+        "Industrial",
+        "Modern"
+      ],
+      "colors": [
+        {
+          "name": "Warm grey",
+          "hex": "#d9d4cc"
+        },
+        {
+          "name": "Slate",
+          "hex": "#6e6a64"
+        },
+        {
+          "name": "Pumice",
+          "hex": "#a59e93"
+        },
+        {
+          "name": "Ember",
+          "hex": "#c8553d"
+        }
+      ],
+      "rooms": [
+        "home-office",
+        "bathroom",
+        "kitchen"
+      ],
+      "rarity": "Common",
+      "rarityXp": 20,
+      "repeat": "Random match",
+      "match": "Random match",
+      "scale": "Small",
+      "rating": 4.5,
+      "reviewCount": 91,
+      "availability": "InStock",
+      "variants": [
+        {
+          "id": "peel-stick",
+          "label": "Peel & Stick",
+          "price": 45,
+          "unit": "roll",
+          "coverageSqFt": 28,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/quarry-dot?variant=peel-stick"
+        },
+        {
+          "id": "non-woven",
+          "label": "Non-Woven (paste-the-wall)",
+          "price": 56,
+          "unit": "roll",
+          "coverageSqFt": 56,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/quarry-dot?variant=non-woven"
+        },
+        {
+          "id": "sample",
+          "label": "A4 Sample Swatch",
+          "price": 5,
+          "unit": "swatch",
+          "coverageSqFt": 0,
+          "buyUrl": "https://wallers.vercel.app/wallpapers/quarry-dot?variant=sample"
+        }
+      ]
+    }
+  ]
+}

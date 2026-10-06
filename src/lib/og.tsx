@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { wallpaperDataUri } from "./art";
 import type { Product } from "./catalog";
+import { SITE_HOST } from "./site";
 
 export const OG_SIZE = { width: 1200, height: 630 };
 
@@ -24,7 +25,7 @@ export function ogCard({ art, eyebrow, title, sub, badge }: { art: Pick<Product,
           </div>
           <div style={{ display: "flex", gap: 12, fontFamily: "sans-serif", fontSize: 20, color: "#1d1a17" }}>
             {badge && <div style={{ display: "flex", background: "#1d1a17", color: "#d9a441", padding: "10px 18px", borderRadius: 999, fontWeight: 700 }}>{badge}</div>}
-            <div style={{ display: "flex", border: "2px solid #e6dccd", padding: "8px 18px", borderRadius: 999 }}>wallora.com</div>
+            <div style={{ display: "flex", border: "2px solid #e6dccd", padding: "8px 18px", borderRadius: 999 }}>{SITE_HOST}</div>
           </div>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -2,9 +2,12 @@
   "name": "wallora",
   "version": "1.0.0",
   "private": true,
-  "description": "Wallora — a gamified designer wallpaper store built for SEO and GEO (AI answer engines).",
+  "description": "Wallora \u2014 a gamified designer wallpaper store built for SEO and GEO (AI answer engines).",
   "scripts": {
+    "seo": "tsx scripts/generate-seo.ts",
+    "predev": "npm run seo",
     "dev": "next dev",
+    "prebuild": "npm run seo",
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit"
@@ -20,6 +23,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   }
 }

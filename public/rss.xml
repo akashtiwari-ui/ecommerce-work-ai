@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wallora Journal</title>
+    <link>https://wallers.vercel.app/guides</link>
+    <atom:link href="https://wallers.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Wallora is a gamified designer wallpaper store. Shop peel-and-stick and non-woven wallpaper in original patterns — botanical, geometric, coastal, art deco and kids' designs — earn XP, unlock badges and level up for member discounts.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How Much Wallpaper Do I Need? The Simple Roll Calculation</title>
+      <link>https://wallers.vercel.app/guides/how-much-wallpaper-do-i-need</link>
+      <guid isPermaLink="true">https://wallers.vercel.app/guides/how-much-wallpaper-do-i-need</guid>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 GMT</pubDate>
+      <category>Planning</category>
+      <description>Calculate exactly how many rolls of wallpaper you need: measure wall area, divide by roll coverage, and add 10–15% for pattern repeat. Includes worked examples and a table.</description>
+    </item>
+    <item>
+      <title>Peel and Stick vs Traditional Wallpaper: Which Should You Choose?</title>
+      <link>https://wallers.vercel.app/guides/peel-and-stick-vs-traditional-wallpaper</link>
+      <guid isPermaLink="true">https://wallers.vercel.app/guides/peel-and-stick-vs-traditional-wallpaper</guid>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 GMT</pubDate>
+      <category>Planning</category>
+      <description>Peel and stick wallpaper is removable, renter-friendly and fast to hang; traditional non-woven wallpaper is more durable, covers more per roll and suits whole rooms. Full comparison table inside.</description>
+    </item>
+    <item>
+      <title>Wallpaper Trends 2026: 7 Looks Defining Interiors This Year</title>
+      <link>https://wallers.vercel.app/guides/wallpaper-trends-2026</link>
+      <guid isPermaLink="true">https://wallers.vercel.app/guides/wallpaper-trends-2026</guid>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+      <category>Inspiration</category>
+      <description>The biggest wallpaper trends of 2026: retro arches, moody botanicals, painterly gingham, terrazzo textures, ceiling wallpaper, dark luxe art deco and calming murals for kids.</description>
+    </item>
+    <item>
+      <title>How to Install Peel and Stick Wallpaper (Step-by-Step)</title>
+      <link>https://wallers.vercel.app/guides/how-to-install-peel-and-stick-wallpaper</link>
+      <guid isPermaLink="true">https://wallers.vercel.app/guides/how-to-install-peel-and-stick-wallpaper</guid>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 GMT</pubDate>
+      <category>Installation</category>
+      <description>Step-by-step instructions to hang peel and stick wallpaper perfectly: prep the wall, mark a plumb line, peel 12 inches at a time, smooth, match the pattern and trim. Tools list and pro tips included.</description>
+    </item>
+    <item>
+      <title>Can You Put Wallpaper in a Bathroom? A Practical Guide</title>
+      <link>https://wallers.vercel.app/guides/wallpaper-in-bathrooms</link>
+      <guid isPermaLink="true">https://wallers.vercel.app/guides/wallpaper-in-bathrooms</guid>
+      <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
+      <category>Care</category>
+      <description>Yes — wallpaper works in bathrooms if you choose a scrubbable non-woven or vinyl finish, ventilate well and keep it away from direct water spray. Here is what to know.</description>
+    </item>
+    <item>
+      <title>How to Remove Wallpaper Without Damaging Walls</title>
+      <link>https://wallers.vercel.app/guides/how-to-remove-wallpaper</link>
+      <guid isPermaLink="true">https://wallers.vercel.app/guides/how-to-remove-wallpaper</guid>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+      <category>Care</category>
+      <description>How to remove peel and stick, non-woven and old paper wallpaper safely: peel at a low angle, strip dry, or score and steam stubborn paper. Step-by-step with tools.</description>
+    </item>
+  </channel>
+</rss>

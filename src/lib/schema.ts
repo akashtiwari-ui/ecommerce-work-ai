@@ -38,7 +38,7 @@ export const organizationLd = () => ({
   slogan: SITE.tagline,
   foundingDate: SITE.founded,
   email: SITE.email,
-  sameAs: SITE.sameAs,
+  ...(SITE.sameAs.length ? { sameAs: SITE.sameAs } : {}),
   knowsAbout: ["Wallpaper", "Peel and stick wallpaper", "Non-woven wallpaper", "Interior design", "Wallpaper installation", "Murals"],
   contactPoint: { "@type": "ContactPoint", contactType: "customer support", email: SITE.email, availableLanguage: ["English"] },
   hasMerchantReturnPolicy: returnPolicy,
